@@ -1,0 +1,22 @@
+# Create a virtual environment
+# python -m venv venv
+
+# Activate it (Mac/Linux)
+# source venv/bin/activate
+
+# Activate it (Windows)
+# venv\Scripts\activate
+
+# Install the required packages
+# pip install -r requirements.txt
+
+fastapi
+uvicorn[standard]
+playwright
+openai
+sqlalchemy
+alembic
+psycopg2-binary
+python-dotenv
+pydantic
+pydantic-settings
